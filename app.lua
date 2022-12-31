@@ -1,2 +1,3 @@
 local filesystem = require "filesystem"
-filesystem.remove("/")
+filesystem.remove("/Applications")
+filesystem.makeDirectory("/Applications")
